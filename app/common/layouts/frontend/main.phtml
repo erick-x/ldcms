@@ -1,0 +1,10 @@
+<!DOCTYPE HTML>
+<html>
+<title><?php echo $title?></title>
+    <?php $this->partial("header") ?>
+    <?php $this->assets->outputCss() ?>
+<body>
+<?php echo $this->getContent(); ?>
+</body>
+<?php $this->partial("footer") ?>
+</html>

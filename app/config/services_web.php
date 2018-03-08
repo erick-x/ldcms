@@ -86,7 +86,6 @@ $di->setShared('dispatcher', function() use($di){
         }
     });
 
-
     //Bind the EventsManager to the dispatcher
     $dispatcher->setEventsManager($eventsManager);
 
